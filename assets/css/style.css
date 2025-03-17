@@ -25,6 +25,10 @@ h1, h2, h3 {
   color: #252525;
 }
 
+.hidden-heading {
+  display: none;
+}
+
 /* Header */
 header {
   background-color: #ffffff;
@@ -171,6 +175,7 @@ main {
   /* this will not wrap on screens less than 400px wide, each div will expand to fill available space */
   flex-basis: 200px;
   flex-grow: 1;
+/* creates a grid of meetup times div over the background image */
   border: 2px solid white;
 }
 
